@@ -5,11 +5,418 @@
     text-decoration: none;
 }
 
-.section1 {
+/* ------------------------------
+            TEXTES
+ ---------------------------------*/
+
+.list-type-none{
+    list-style-type: none; /*retirer la puces des listes */
+}
+
+.bold{
+    font-weight: 800; /* mettre en gras */
+}
+
+.text-center{
+    text-align: center; /* centrer le texte */
+}
+
+.uppercase{
+    text-transform: uppercase; /* mettre en majuscule */
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+.titre-h2{
+font-weight: 145;
+font-size: 45px;
+font-family: "Noto Sans Pahawh Hmong", sans-serif;
+}
+
+.titre-h3{
+font-weight: 145;
+font-size: 30px;
+font-family: "Noto Sans Pahawh Hmong", sans-serif;
+}
+
+.liste-ul{
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.logo{
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.typo{
+   font-family: "inter", sans-serif; 
+}
+
+/* ------------------------------
+            COULEURS
+ ---------------------------------*/
+
+.color-princ{
+    background-color: #D8935C;
+}
+
+.colorblack-txt{
+    color: #2E2A26;
+}
+
+.background-white{
+    background-color: #D8935C;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.color-white{
+    color: #ffffff;
+}
+
+.color-green{
+    color: #496e3b;
+}
+
+.background-green{
+    background-color: #496e3b;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* ------------------------------
+            LARGEURS
+ ---------------------------------*/
+
+.w-100{
+    width: 100%;
+}
+
+
+.w-50 {
+    width: 50%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+
+/* ------------------------------
+        FOND COULEUR/ IMAGE
+ ---------------------------------*/
+
+.fond-img{
+background-image: url(asset/fond-chaussure-eco.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+background-position: center;
+height:100vh;
+}
+
+
+/* ------------------------------
+            FLEXBOX
+ ---------------------------------*/
+
+.flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.card {
+.colonne{
+    flex-direction: column;
+}
 
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.gap {
+  gap: var(--gap);
+}
+
+.gap-8{
+    gap: 8px;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.gap-32{
+    gap: 32px;
+}
+
+.gap-64{
+    gap: 64px;
+}
+
+/* ------------------------------
+         MARGIN & PADDING 
+ ---------------------------------*/
+
+ /* Margin */
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+
+.mt-64{
+    margin-top: 64px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+.mt-128{
+    margin-top: 128px;
+}
+
+.mb-128{
+    margin-bottom: 128px;
+}
+
+.mr-16{
+    margin-right: 16px;
+}
+
+.ml-16{
+    margin-left: 16px;
+}
+
+.ml-60{
+    margin-left: 60px;
+}
+
+.ml-100{
+    margin-left: 100px;
+}
+
+.mr-32{
+    margin-right: 32px;
+}
+
+.ml-32{
+    margin-left: 32px;
+}
+
+/* padding */
+
+
+.pb-16{
+    padding-bottom: 16px;
+}
+
+.pl-16{
+    padding-left: 16px;
+}
+
+.pr-16{
+    padding-right: 16px;
+}
+
+.pt-16{
+    padding-top: 16px;
+}
+
+.pb-32{
+    padding-bottom: 16px;
+}
+
+.pt-32{
+    padding-top: 32px;
+}
+
+.pb-32{
+    padding-bottom: 32px;
+}
+
+.pt-64{
+    padding-top: 64px;
+}
+
+.pb-64{
+    padding-bottom: 64px;
+}
+
+
+.pt-128{
+    padding-top: 128px;
+}
+
+.pb-128{
+    padding-bottom: 128px;
+}
+
+/* ------------------------------
+            CONTAINER
+ ---------------------------------*/
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ------------------------------
+            CARDS
+ ---------------------------------*/
+
+ .card{
+    background-color: white;
+    border: solid #D8935C;
+    padding: 15px 10px;
+    width: 28%;
+    border-radius: 10px;
+    font-family: "inter", sans-serif;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.553);
+ }
+
+ .card-service{
+    background-color: rgb(255, 255, 255);
+    border: solid #D8935C;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: "inter", sans-serif;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.553);
+ }
+
+  .card-avis{
+    background-color: white;
+    border: solid #D8935C;
+    padding: 15px 10px;
+    border-radius: 15px;
+    font-family: "inter", sans-serif;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.553);
+  }
+
+.card-contact{
+    background-color: white;
+    border: solid #D8935C;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: "inter", sans-serif;
+}
+
+.card-recherche{
+    background-color: white;
+    border: solid #D8935C;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: "inter", sans-serif;
+}
+
+ .img-border{
+    border-radius: 10px;
+ }
+
+ .photo-border{
+    border-radius: 200px;
+ }
+
+ .card-temoignage {
+  border-radius: 8px;
+  background-color: var(--troisieme-plan);
+ }
+
+ .card-content {
+    padding: 8px;
+  }
+
+.avis-temoignages {
+
+  background-color: var(--deuxieme-plan);
+  padding: 16px;
+}
+
+ /* ------------------------------
+            BOUTON
+ ---------------------------------*/
+
+ .btn{
+    color: rgb(255, 255, 255);
+    background-color: #D8935C;
+    border: #2E2A26;
+    border-radius: 18px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+
+}
+
+
+
+.btn-white{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.bnt-center{
+    display: inline-block;
 }
