@@ -29,11 +29,18 @@
     text-transform: uppercase; /* mettre en majuscule */
 }
 
+/*header*/
 header{
     position: fixed;
     width: 100%;
-    background-color: #ffffff;
+   background-color: transparent;
+   transition: background-color 0.3s ease;
     z-index: 1000;
+    padding: 8px 0;
+}
+header a{
+    color: #fff;
+    transition: color 0.3s ease;
 }
 
 h1{
@@ -155,7 +162,43 @@ background-repeat:no-repeat;
 background-position: center;
 height:100vh;
 }
+.bg-gradient-hero{
+    background: linear-gradient(to bottom, #fff,#E9E9E9);
+}
 
+/*header*/
+
+/*section hero*/
+.overflow-hidden{
+    overflow: hidden;
+}
+.transform-y-128{
+  transform: translateY(200px);
+}
+.relative{
+    position: relative;
+    z-index: 1
+}
+.bg-hero-overlay{
+    position: absolute;
+    top: 0;right: 0;
+    z-index: -1;
+
+}
+
+.bg-gradient-pourquoi{
+    background: linear-gradient(to bottom, transparent, #f3f3f35e,#E7E7E7 );
+}
+
+.header-white{
+    background-color: rgb(25, 121, 153);
+    a, p{
+        color:#fff;
+    }
+    .btn-white{
+        color: #000
+    }
+}
 
 /* ------------------------------
             FLEXBOX
@@ -442,7 +485,7 @@ height:100vh;
     background-color: white;
     border-radius: 4px;
     padding: 10px 40px;
-    margin-top: 10px;
+   
     display: inline-block;
 }
 
