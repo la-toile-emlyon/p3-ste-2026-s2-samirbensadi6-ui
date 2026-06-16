@@ -43,14 +43,14 @@ font-size: 45px;
 
 h2 {
 font-weight: 145;
-font-size: 3°px;
+font-size: 30px;
 font-family: "Noto Sans Pahawh Hmong", sans-serif;
 text-align: center;
 }
 
 h3 {
 font-weight: 145;
-font-size: 30px;
+font-size: 20px;
 font-family: "Noto Sans Pahawh Hmong", sans-serif;
 text-align: center;
 }
@@ -78,11 +78,11 @@ text-align: center;
     background-color: rgb(25, 121, 153);
 }
 
-.colorblack-txt{
+.color-black{
     color: #2E2A26;
 }
 
-.background-white{
+.bg-white{
     background-color: #D8935C;
     border-radius: 10px;
     padding: 10px;
@@ -96,8 +96,8 @@ text-align: center;
     color: #496e3b;
 }
 
-.background-green{
-    background-color: #496e3b;
+.bg-black{
+    background-color: #2a2a2a;
     border-radius: 10px;
     padding: 10px;
 }
@@ -133,6 +133,10 @@ text-align: center;
 
 .w-25 {
     width: 25%;
+}
+
+.w-24 {
+    width: 24%;
 }
 
 .w-20{
@@ -267,6 +271,10 @@ height:100vh;
 
 .ml-32{
     margin-left: 32px;
+}
+
+.mr-64{
+    margin-right: 64px;
 }
 
 /* padding */
@@ -417,7 +425,7 @@ height:100vh;
 
  .btn{
     color: rgb(255, 255, 255);
-    background-color: #D8935C;
+    background-color: #00b8d8;
     border: #2E2A26;
     border-radius: 18px;
     padding: 10px 40px;
@@ -436,5 +444,60 @@ height:100vh;
     padding: 10px 40px;
     margin-top: 10px;
     display: inline-block;
+}
+
+
+/* ------------------------------
+            Commentaires
+ ---------------------------------*/
+
+
+.avis{
+    text-align: center;
+}
+
+.avis-h2 {
+    margin-bottom: 50px;
+}
+
+.carte-avis {
+    width: 320px;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.etoiles {
+    color: gold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.carte-avis p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.auteur {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.auteur img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.auteur h4 {
+    margin: 0;
+}
+
+.auteur span {
+    color: #777;
+    font-size: 14px;
 }
 
