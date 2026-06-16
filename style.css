@@ -21,27 +21,38 @@
     text-align: center; /* centrer le texte */
 }
 
+.text-right{
+    text-align: right;
+}
+
 .uppercase{
     text-transform: uppercase; /* mettre en majuscule */
 }
 
-.header{
+header{
     position: fixed;
     width: 100%;
     background-color: #ffffff;
     z-index: 1000;
 }
 
-.titre-h2{
-font-weight: 145;
+h1{
+    font-weight: 145;
 font-size: 45px;
-font-family: "Noto Sans Pahawh Hmong", sans-serif;
 }
 
-.titre-h3{
+h2 {
+font-weight: 145;
+font-size: 3°px;
+font-family: "Noto Sans Pahawh Hmong", sans-serif;
+text-align: center;
+}
+
+h3 {
 font-weight: 145;
 font-size: 30px;
 font-family: "Noto Sans Pahawh Hmong", sans-serif;
+text-align: center;
 }
 
 .liste-ul{
@@ -58,12 +69,13 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
    font-family: "inter", sans-serif; 
 }
 
+
 /* ------------------------------
             COULEURS
  ---------------------------------*/
 
 .color-princ{
-    background-color: #D8935C;
+    background-color: rgb(25, 121, 153);
 }
 
 .colorblack-txt{
@@ -89,6 +101,11 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
     border-radius: 10px;
     padding: 10px;
 }
+
+.bg-blue{
+    background-color: rgb(102, 126, 138);
+}
+
 /* ------------------------------
             LARGEURS
  ---------------------------------*/
@@ -232,8 +249,12 @@ height:100vh;
     margin-left: 16px;
 }
 
-.ml-60{
-    margin-left: 60px;
+.ml-32{
+    margin-left: 32px;
+}
+
+.ml-64{
+    margin-left: 64px;
 }
 
 .ml-100{
@@ -417,6 +438,3 @@ height:100vh;
     display: inline-block;
 }
 
-.bnt-center{
-    display: inline-block;
-}
