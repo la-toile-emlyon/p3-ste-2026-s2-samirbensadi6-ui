@@ -7,7 +7,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
+body{
+    overflow-x:hidden;
+}
 /* ------------------------------
             TEXTES
  ---------------------------------*/
@@ -42,7 +44,7 @@ header{
     padding: 8px 0;
 }
 header a{
-    color: #fff;
+    color: #000;
     transition: color 0.3s ease;
 }
 
@@ -131,10 +133,11 @@ text-align: center;
 .bg-image-avis{
     background-image: url("./assets/Avis\ clients.png");
     background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-.bulle-haut-gauche{
+.bulle-haute-gauche{
     position: absolute;
     top:80%;
     left : -300px;
