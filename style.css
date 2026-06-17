@@ -295,7 +295,6 @@ height:100vh;
  .fonctionnalitee {
   display: flex;
   justify-content: space-between;
-  margin-top: 64px;
   align-items: center;
   gap: 24px;
  }
@@ -311,13 +310,19 @@ height:100vh;
  .card100{
   display: flex;
   flex-direction: column;
+  margin-top: -30px;
  }
 
  .img100{
     display: flex;
   flex-direction: column;
+  
  }
+.imagephone{
+    transform: translateX(60px);
+      margin-top: 10px;
 
+}
  .img-pourtoi{
   width: 58px;
   height: 58px;
@@ -731,5 +736,10 @@ height:100vh;
     position: relative;
 }
 
+.btn-position{
+    transform: translateX(575px);
+}
 
-
+.img-avantage{
+    width: 100px;
+}
