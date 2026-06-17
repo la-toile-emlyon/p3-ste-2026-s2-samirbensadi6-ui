@@ -141,6 +141,10 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
     background-color: rgb(102, 126, 138);
 }
 
+.bg-black {
+    background-color: black;
+}
+
 .avis{
     padding: 100px 0 ;
     h2{
@@ -536,6 +540,7 @@ height:100vh;
     padding: 28px 24px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   flex-direction: column;
+  border-radius: 30px;
   gap: 12px;
     h3{
         margin-bottom: 16px;
@@ -557,7 +562,10 @@ height:100vh;
  }
 
  
-
+.img-avantage{
+    width: 100px;
+    height: 100px;
+}
 
 
  .card-service{
@@ -572,11 +580,11 @@ height:100vh;
 
   .card-avis{
     background-color: white;
-    border: solid #00c2d0;
     padding: 15px 10px;
     border-radius: 15px;
     font-family: "inter", sans-serif;
-    box-shadow: 2px 2px 15px #8ABED8;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    text-align: center;
   }
 
 .card-contact{
@@ -623,14 +631,16 @@ height:100vh;
  ---------------------------------*/
 
  .btn{
-    color: rgb(255, 255, 255);
-    background-color: #67C3F3;
-    border: #2E2A26;
-    border-radius: 18px;
-    padding: 10px 40px;
-    margin-top: 10px;
-    padding-bottom: 10px;
+    background-color: transparent;
     display: inline-block;
+    padding: 12px 32px;
+    border: 1.4px solid #00c3ff;
+    border-radius: 100px;
+    color: #00c3ff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
 
 }
 
@@ -649,6 +659,9 @@ height:100vh;
 
 }
 
+.btn-position{
+    transform: translateX(575px);
+}
 
 /* ------------------------------
             Commentaires
@@ -736,10 +749,6 @@ height:100vh;
     position: relative;
 }
 
-.btn-position{
-    transform: translateX(575px);
-}
 
-.img-avantage{
-    width: 100px;
-}
+
+
