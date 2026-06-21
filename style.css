@@ -750,6 +750,11 @@ height:100vh;
     background-color: rgb(25, 121, 153);
 }
 
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
 
 
 
