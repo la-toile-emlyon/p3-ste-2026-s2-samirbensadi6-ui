@@ -735,7 +735,7 @@ height:100vh;
 
 .carddoc1 {
     background-color: white;
-    border: solid #9a231f;
+    border: solid #186a79;
     padding: 6px 6px;
     width: 28%;
     border-radius: 10px;
@@ -746,7 +746,8 @@ height:100vh;
 
 .header-doc {
     font-family: "Poppins", sans-serif;
-    position: relative;
+    position: fixed;
+    background-color: rgb(25, 121, 153);
 }
 
 
