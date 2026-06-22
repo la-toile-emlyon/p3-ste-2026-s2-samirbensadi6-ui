@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin:0;
     padding: 0;
@@ -10,6 +11,8 @@
 body{
     overflow-x:hidden;
 }
+
+
 /* ------------------------------
             TEXTES
  ---------------------------------*/
@@ -70,12 +73,21 @@ h2,h3,h4,h5,h6{
 h1{
     font-weight: 625;
     font-size: 40px;
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    letter-spacing: -1.8px;
-    transform: scaleY(1);
+    letter-spacing: -0.5px;
+    transform: scaleY(0.98);
     display: inline-block;
-    line-height: 1.1;
+    line-height: 1;
+    color: #006F95;
+    font-family: "Inter", sans-serif;
+    font-weight: 650;
+    font-style: normal;
+
+}
+
+p{
+font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
@@ -127,6 +139,10 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
     color: #ffffff;
 }
 
+.color-blue{
+    color: #006F95;
+}
+
 .color-green{
     color: #496e3b;
 }
@@ -136,6 +152,7 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
     border-radius: 10px;
     padding: 10px;
 }
+
 
 .bg-blue{
     background-color: rgb(102, 126, 138);
@@ -186,6 +203,10 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
     width: 100%;
 }
 
+.w-70{
+    width: 70%;
+}
+
 
 .w-50 {
     width: 50%;
@@ -215,6 +236,10 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
     width: 20%;
 }
 
+.w-15{
+    width: 15%;
+}
+
 
 /* ------------------------------
         FOND COULEUR/ IMAGE
@@ -227,9 +252,9 @@ background-repeat:no-repeat;
 background-position: center;
 height:100vh;
 }
-.bg-gradient-hero{
+/*.bg-gradient-hero{
     background: linear-gradient(to bottom, #fff,#E9E9E9);
-}
+}*/
 
 
 
@@ -279,7 +304,7 @@ height:100vh;
 
 .header-white{
     background-color: rgb(25, 121, 153);
-    height: 50px;
+    height: 70px;
     transition: all 0.85s cubic-bezier(0.4, 0, 0.2, 1);
     a, p{
         color:#fff;
@@ -355,6 +380,10 @@ height:100vh;
 
 .justify-center{
     justify-content: center;
+}
+
+align-end{
+    align-items: flex-end;
 }
 
 .gap {
@@ -452,6 +481,9 @@ height:100vh;
     margin-right: 64px;
 }
 
+.p-20{
+    padding: 20px;
+}
 /* padding */
 
 
@@ -722,6 +754,10 @@ height:100vh;
             style doctype.html
  ---------------------------------*/
 
+ .span-bleu{
+    font-weight: 800;
+    color: #006F95;
+ }
 
 .card-doc {
     background-color: white;
@@ -760,13 +796,60 @@ height:100vh;
 .card-doc3 {
     background-color: rgb(204, 218, 238);
     border: solid #186a79;
-    padding: 20px 40px;
+    padding: 20px 40px 15px;
     width: 100%;
     color: white;
     border-radius: 30px;
     font-family: "inter", sans-serif;
     box-shadow: 2px 2px 15px rgba(43, 121, 145, 0.553);
     display: inline-block;
+}
+
+.card-sommaire {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgb(85, 153, 255);
+
+}
+
+.sommaire > a {
+    color: white;
+}
+
+.pos-sticky{
+    position: sticky;
+    top: 120px;
+    nav a{
+        margin-bottom: 16px;
+        display: block;
+    }
+}
+
+
+
+
+
+.container-scroll{
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.img-scroll-horizontal {
+    width: 30%;
+    flex-shrink: 0;
+}
+
+.img-equipe{
+    border-radius: 300px;
+}
+.carte-equipe{
+    height: 200px;
 }
 
 

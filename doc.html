@@ -4,265 +4,459 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation Eco Marin</title>
+    <title>Documentation Ecomarin</title>
+    <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.html">
+
 </head>
 
 <body>
     <!-- header -->
-    <header>
-
+    <header class="">
         <div class="container-1200 align-center flex space-between">
-            <img src="assets/logo_eco_marin.png" alt="Eco-Marin" width="5%">
+             <img src="assets/logo_eco_marin.png" alt="Eco-Marin" width="5%">
             <nav class="flex gap-32 align-center nav-links">
                 <a href="index.html">Accueil</a>
                 <a href="doc.html">Documentation</a>
                 <a href="" class="btn-white">Télécharger</a>
             </nav>
         </div>
-        <!--   <div class="container-1200 align-center flex space-between">
-                <img src="assets/logo_eco_marin.png" alt="Eco-Marin" width="5%">
-                 <nav class="flex gap-32 align-center">
-                <a href="#persona">Persona</a>
-                <a href="#problematique">Problématique</a>
-                <a href="#solution">Solution</a>
-                <a href="#process">Process</a>
-                <a href="#nosretours">Nos retours Test Utilisateurs</a>
-                <a href="#evolution">Evolutions</a>
-                <a href="#telecharger" class="btn-white">Télécharger</a>
-            </nav>
-        </div>
--->
+
     </header>
 
-    <section class="bg-blue">
-        <div class="container-1000 space-between flex pt-128 pb-128">
+    <!-- hero doc -->
+    <section class="bg-bleu-ciel">
 
-            <div class="w-48">
-                <h2 class="bold">Documentation</h2>
+        <div class="container-1000 flex space-between align-center">
+
+            <!-- div gauche -->
+            <div class="w-38 ">
+<h1></h1>
+
                 <p>Voici l’évolution du projet, mettant en lumière les choix de conception et les améliorations
                     apportées au fil des itérations.</p>
             </div>
-            <div class="w-48">
-                <img src="./assets/main.png" alt="" class="imagephone" width="50%">
+
+            <!-- div droite -->
+            <div class="w-38">
+                <img src="assets/main.png" alt="" class="w-100 ">
             </div>
 
+
         </div>
+
+
     </section>
 
-    <!-- contexte -->
-    <section class="container-1000">
-        <div class="space-between flex pt-128 card-doc2 mt-128">
-            <h2 class="pb-64 text-center mt-64 bold">01 Contexte Pourquoi protéger notre biodiversité marine ?</h2>
-            <div>
+    <div class="flex container-1200 space-between">
+        <!-- SOMMAIRE -->
+        <div class="w-25 mt-64">
+            <nav class="pos-sticky card-sommaire sommaire">
+                <a href="#contexte">Contexte</a>
+                <a href="#persona">Personna</a>
+                <a href="#problematique">Problématique</a>
+                <a href="#userflow">Userflow</a>
+                <a href="#solution">Solution</a>
+                <a href="#process">Process </a>
+                <a href="#nosretours">Nos retours Test utilisateurs</a>
+                <a href="#evolutions">Nos évolutions</a>
+                <a href="#team">Team</a>
+            </nav>
+        </div>
 
-<<<<<<< HEAD
-                <p class="poppins">Les océans jouent un rôle essentiel dans l'équilibre de la planète. Ils
-                    produisent
-                    plus
-                    de 50 %
-                    de l'oxygène que nous respirons et abritent une immense diversité d'espèces animales et végétales.
+        <!-- CONTENU PAGE -->
+        <div class="w-70">
+
+            <!-- section pourquoi proteger les oceans  -->
+            <section class=" pt-128" id="contexte">
+
+                <h2 class="mb-32 bold color-blue">Pourquoi protéger notre biodiversité marine ?</h2>
+
+                <p>Les océans <span class="span-bleu">jouent un rôle essentiel dans l'équilibre de la planète</span>.
+                    Ils
+                    produisent plus de 50 % de l'oxygène que nous respirons et abritent une immense diversité d'espèces
+                    animales
+                    et végétales.</p>
+
+
+                <p class="mt-16">Aujourd'hui, la biodiversité marine est <span class="span-bleu">menacée par la
+                        pollution</span>, le changement climatique et certaines activités humaines. Sa protection est
+                    indispensable pour <span class="span-bleu">préserver les écosystèmes, les ressources naturelles et
+                        les
+                        générations futures.</span>
                 </p>
 
-                <p class="mt-32 poppins">Aujourd'hui, la biodiversité marine est menacée par la pollution, le changement
-                    climatique et certaines
-                    activités humaines. Sa protection est indispensable pour préserver les écosystèmes, les ressources
-                    naturelles et les générations futures.</p>
-            </div>
 
-            <div class="flex space-between mt-32 container-1000 color-black">
+                <div class="flex space-between mt-32 container-1000 color-black bg-bleu-ciel">
 
-                <div class="w-30 card-avis flex justify-center">
-                    <img src="assets/ImpactEco.png" alt="" class="img-avantage">
-                    <h3 class="mt-16 mb-16 text-center">Biodiversités menacé</h3>
-                    <p class="mb-16 text-center">Un tiers des espèces d’eau douces sont menacés d’extinction selon UICN
-                    </p>
+                    <div class="w-30 card-avis flex justify-center">
+                        <img src="assets/ImpactEco.png" alt="" class="img-avantage">
+                        <h3 class="mt-16 mb-16 text-center">Biodiversités menacé</h3>
+                        <p class="mb-16 text-center">Un tiers des espèces d’eau douces sont menacés d’extinction selon
+                            UICN
+                        </p>
+                    </div>
+
+                    <div class="w-30 card-avis flex justify-center color-black">
+                        <img src="assets/Reservation.png" alt="" class="img-avantage">
+                        <h3 class="mt-16 mb-16 text-center">Déconnection nature</h3>
+                        <p class="mb-16 text-center">Les enfants passent en moyenne 4 à 7 min/par jour en nature non
+                            structurée
+                            contre 7h
+                            devant
+                            les écrans.
+                        </p>
+                    </div>
+                    <div class="w-30 card-avis flex justify-center color-black">
+                        <img src="assets/Souvenirs.png" alt="" class="img-avantage">
+                        <h3 class="mt-16 mb-16 text-center">Science citoyenne</h3>
+                        <p class="mb-16 text-center">Les données collectées par les particuliers représentent 30% des
+                            observations
+                            naturalistes
+                            mondiales</p>
+                    </div>
                 </div>
 
-                <div class="w-30 card-avis flex justify-center color-black">
-                    <img src="assets/Reservation.png" alt="" class="img-avantage">
-                    <h3 class="mt-16 mb-16 text-center">Déconnection nature</h3>
-                    <p class="mb-16 text-center">Les enfants passent en moyenne 4 à 7 min/par jour en nature non
-                        structurée
-                        contre 7h
-                        devant
-                        les écrans.
-                    </p>
+            </section>
+
+            <!-- Persona -->
+            <section class="pt-128" id="persona">
+
+                <h2 class="mb-32 bold color-blue">Qui est Ashley ?</h2>
+
+                <img src="assets/persona.jpg" alt="" class="w-100 img-border">
+
+
+            </section>
+
+            <!-- Problématique -->
+
+            <section class=" pt-128" id="problematique">
+                <h2 class="mb-32 bold color-blue">Problématique</h2>
+
+                <p class="mt-32">Le tourisme cotier et marin <span class="span-bleu">attire chaque année des millions de
+                        voyageurs.</span> Cependant, de
+                    nombreuses activités
+                    touristiques peuvent avoir un impact négatif sur la biodiversité marine : dégradation des coraux,
+                    pertubation des espèces,pollution des plages et des océans. </p>
+
+                <p class="mt-32">Les touristes souhaitent souvent <span class="span-bleu">adopter un comportement plus
+                        responsable,</span> mais ils
+                    manquent parfois
+                    d’informations et d’outils pour identifier les bonnes pratiques et les activités respectueuses de
+                    l’environnement</p>
+
+                <div class="bg-bleu-ciel p-20 mt-32">
+                    <h2 class="color-white">Comment inciter les touristes comme Ashley a réaliser des gestes
+                        éco-responsables pendant ses vacances ?
+                        </h4>
+                    </h2>
                 </div>
-                <div class="w-30 card-avis flex justify-center color-black">
-                    <img src="assets/Souvenirs.png" alt="" class="img-avantage">
-                    <h3 class="mt-16 mb-16 text-center">Science citoyenne</h3>
-                    <p class="mb-16 text-center">Les données collectées par les particuliers représentent 30% des
-                        observations
-                        naturalistes
-                        mondiales</p>
-=======
-            <p class="mt-64 poppins">Aujourd'hui, la biodiversité marine est menacée par la pollution, le changement climatique et certaines
-            activités humaines. Sa protection est indispensable pour préserver les écosystèmes, les ressources
-            naturelles et les générations futures.</p>
-        </div>
+            </section>
 
-       <div class="flex space-between mt-64 container-1000">
+            <!-- userflow -->
+            <section class=" pt-128" id="userflow">
+                <h2 class="mb-32 bold color-blue">User flow</h2>
 
-                <div class="w-30 card-avis flex justify-center">
-                    <img src="assets/ImpactEco.png" alt="" class="img-avantage">
-                    <h3 class="mt-16 mb-16 text-center">Biodiversités menacé</h3>
-                    <p class="mb-16 text-center">Un tiers des espèces d’eau douces sont menacés d’extinction selon UICN</p>
+                <p>Chaque vacance, Ashley,se connecte a son application nommé Eco-Marin
+                </p>
+
+                <!-- img userflow serpent -->
+                <img src="" alt="" class="w-100">
+
+            </section>
+
+            <!-- solution -->
+            <section class="pt-128" id="solution">
+
+                <h2 class="mb-32 bold color-blue">Solution</h2>
+
+                <div class="bg-bleu-ciel">
+                    <h3 class="color-white">Une applciaiton qui permet a ashley de <span class="span-bleu">réserver des
+                            activités éco-responsable</span> quelle pourra réaliser avec ses enfants pendant les
+                        vacances dans le but de <span class="span-bleu">créer des souvenirs.</span> </h3>
+
                 </div>
 
-                <div class="w-30 card-avis flex justify-center">
-                    <img src="assets/Reservation.png" alt="" class="img-avantage">
-                    <h3 class="mt-16 mb-16 text-center">Réservation sécurisée</h3>
-                    <p class="mb-16 text-center">Notre application propose une plateforme de réservation sûre et
-                        sécurisée.</p>
+            </section>
+
+
+            <!-- Process -->
+            <section class=" pt-128" id="process">
+                <h2 class="mb-32 bold color-blue">Process</h2>
+
+
+                <!-- LOW FI -->
+                <div class="mb-64">
+                    <h4 class="color-blue mb-16">Low Fi</h4>
+
+                    <!-- boite scrollable -->
+                    <div class="container-scroll  gap-16">
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/wireframe/wireframe_home.png" alt="" class="w-100"></img>
+                            <p>Home</p>
+                        </div>
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/wireframe/wireframe_la_maison_des_tortues.png" alt="" class="w-100"></img>
+                            <p>La maison des tortues</p>
+                        </div>
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/wireframe/wireframe_mes-activites.png" alt="" class="w-100"></img>
+                            <p>Mes activités</p>
+                        </div>
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/wireframe/wireframe_souvenir.png" alt="" class="w-100"></img>
+                            <p>Souvenir</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="w-30 card-avis flex justify-center">
-                    <img src="assets/Souvenirs.png" alt="" class="img-avantage">
-                    <h3 class="mt-16 mb-16 text-center">Choisissez vos horaires</h3>
-                    <p class="mb-16 text-center">Ce qui nous différencie, c’est la variété dans nos horaires. </p>
->>>>>>> 46b137615d32b19ff84b477f07029632f09aa518
+
+                <!-- MID FI -->
+                <div class="mb-64">
+                    <h4 class="color-blue mb-16">Mid Fi </h4>
+
+                    <!-- boite scrollable -->
+                    <div class="container-scroll  gap-16">
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/midfi/midfi_home.png" alt="" class="w-100"></img>
+                            <p>Home midfi</p>
+                        </div>
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/midfi/midfi_la_maison_des_tortues.png" alt="" class="w-100"></img>
+                            <p>La maison des tortues midfi</p>
+                        </div>
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/midfi/midfi_mes_activites.png" alt="" class="w-100"></img>
+                            <p>Mes activités midfi</p>
+                        </div>
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/midfi/midfi_souvenir.png" alt="" class="w-100"></img>
+                            <p>Souvenir midfi</p>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
+
+                <!-- HIGH FI -->
+                <div class="mb-64">
+                    <h4 class="color-blue mb-16">High Fi </h4>
+
+                    <!-- boite scrollable -->
+                    <div class="container-scroll  gap-16">
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/highfi/HOME.png" alt="" class="w-100"></img>
+                            <p>Home highfi</p>
+                        </div>
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/highfi/La maison des tortues.png" alt="" class="w-100"></img>
+                            <p>La maison des tortues highfi</p>
+                        </div>
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/highfi/mes_activites.png" alt="" class="w-100"></img>
+                            <p>Mes activités highfi</p>
+                        </div>
+
+                        <!-- img + legend -->
+                        <div class="img-scroll-horizontal">
+                            <img src="assets/highfi/souvenir.png" alt="" class="w-100"></img>
+                            <p>Souvenir highfi</p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+            </section>
+
+            <!-- Nos retours tests Utilisateurs -->
+            <section class=" pt-128" id="nosretours">
+
+                <h2 class="mb-32 bold color-blue">Nos retours de tests</h2>
+
+                <!-- retour 1  -->
+                <div class="flex space-between mb-64 align-center">
+                    <div class="w-25">
+
+                        <h4 class="mb-16 color-blue">Titre modif</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facere delectus
+                            provident,
+                            quaerat voluptatem deserunt nam dolore voluptatibus totam nulla quas magni aliquid dicta
+                            exercitationem ut sunt laboriosam mollitia repellat?</p>
+                    </div>
+
+                    <div class="w-25">
+                        <p class="color-blue mb-16">Avant</p>
+                        <img src="assets/highfi/HOME.png" alt="" class="w-100">
+
+                    </div>
+                    <div class="w-25">
+                        <p class="color-blue mb-16">Aprés</p>
+                        <img src="assets/highfi/HOME.png" alt="" class="w-100">
+                    </div>
+
+                </div>
+
+                <!-- retour 2  -->
+                <div class="flex space-between mb-64 align-center">
+                    <div class="w-25">
+
+                        <h4 class="mb-16 color-blue">Titre modif</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facere delectus
+                            provident,
+                            quaerat voluptatem deserunt nam dolore voluptatibus totam nulla quas magni aliquid dicta
+                            exercitationem ut sunt laboriosam mollitia repellat?</p>
+                    </div>
+
+                    <div class="w-25">
+                        <p class="color-blue mb-16">Avant</p>
+                        <img src="assets/highfi/HOME.png" alt="" class="w-100">
+
+                    </div>
+                    <div class="w-25">
+                        <p class="color-blue mb-16">Aprés</p>
+                        <img src="assets/highfi/HOME.png" alt="" class="w-100">
+                    </div>
+
+                </div>
+
+                <!-- retour 3  -->
+                <div class="flex space-between mb-64 align-center">
+                    <div class="w-25">
+
+                        <h4 class="mb-16 color-blue">Titre modif</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facere delectus
+                            provident,
+                            quaerat voluptatem deserunt nam dolore voluptatibus totam nulla quas magni aliquid dicta
+                            exercitationem ut sunt laboriosam mollitia repellat?</p>
+                    </div>
+
+                    <div class="w-25">
+                        <p class="color-blue mb-16">Avant</p>
+                        <img src="assets/highfi/HOME.png" alt="" class="w-100">
+
+                    </div>
+                    <div class="w-25">
+                        <p class="color-blue mb-16">Aprés</p>
+                        <img src="assets/highfi/HOME.png" alt="" class="w-100">
+                    </div>
+
+                </div>
+
+
+
+
+
+            </section>
+
+            <!-- Nos évolutions -->
+            <section class=" pt-128" id="evolutions">
+                <h2 class="mb-32 bold color-blue">Évolutions à venir</h2>
+
+                <div class="p-20 bg-bleu-ciel color-white">
+                    <div class="flex space-between p-20 ">
+
+                        <!-- evolution 1 -->
+                        <div class="w-40 mb-16 flex colonne align-center">
+                            <img src="assets/SLR Camera.png" alt="" class="w-50 ">
+                            <p class="text-center">Imprimer des photos</p>
+                        </div>
+
+                        <!-- evolution 2 -->
+                        <div class="w-40 mb-16 flex colonne align-center">
+                            <img src="assets/SLR Camera.png" alt="" class="w-50 ">
+                            <p class="text-center">Partager tes photos via tes reseaux sociaux</p>
+                        </div>
+
+                        <!-- evolution 2 -->
+                        <div class="w-40 mb-16 flex colonne align-center">
+                            <img src="assets/SLR Camera.png" alt="" class="w-50 ">
+                            <p class="text-center">Accès a une boutique via les points obtenus sur ton application</p>
+                        </div>
+
+                        <!-- evolution 2 -->
+                        <div class="w-40 mb-16 flex colonne align-center">
+                            <img src="assets/SLR Camera.png" alt="" class="w-50 ">
+                            <p class="text-center">Pouvoir styliser ton album photo et meme tes badges remportés</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- Team -->
+            <section class="pt-128 mb-128" id="team">
+                <h2 class="mb-32 bold color-blue">L'équipe</h2>
+
+                <div class="flex space-between">
+
+                    <!-- Mona -->
+                    <div class="bg-bleu-ciel w-20 colonne flex align-center carte-equipe justify-center">
+                        <img src="assets/avatar.png" alt="" class="w-50 img-equipe mb-32">
+                        <p class="color-blue bold mb-16">Mona</p>
+                        <p class="color-blue">UI/UX designer</p>
+                    </div>
+
+                    <!-- Samir -->
+                    <div class="bg-bleu-ciel w-20 colonne flex align-center carte-equipe justify-center">
+                        <img src="assets/avatar.png" alt="" class="w-50 img-equipe mb-32">
+                        <p class="color-blue bold mb-16">Mona</p>
+                        <p class="color-blue">UI/UX designer</p>
+                    </div>
+
+                    <!-- Sofiane -->
+                    <div class="bg-bleu-ciel w-20 colonne flex align-center carte-equipe justify-center">
+                        <img src="assets/avatar.png" alt="" class="w-50 img-equipe mb-32">
+                        <p class="color-blue bold mb-16">Mona</p>
+                        <p class="color-blue">UI/UX designer</p>
+                    </div>
+
+                    <!-- Armand -->
+                    <div class="bg-bleu-ciel w-20 colonne flex align-center carte-equipe justify-center">
+                        <img src="assets/avatar.png" alt="" class="w-50 img-equipe mb-32">
+                        <p class="color-blue bold mb-16">Mona</p>
+                        <p class="color-blue">UI/UX designer</p>
+                    </div>
+                </div>
+
+
+            </section>
+
         </div>
-
-    </section>
-
-    <!-- Persona -->
-    <section class="container-1000 flex space-between mt-128">
-        <div class="card-doc3">
-
-            <h2 class="mb-64 text-center mt-64 color-white bold" id="persona">02 Qui est ashley</h2>
-            <img src="assets/persona.jpg" alt="" width="100%" class="img-border">
-        </div>
-
-    </section>
-
-    <!-- Problématique -->
-    <section class="container-1000" id="problematique">
-        <div class="flex space-between mt-128 card-doc2">
-            <h2>03 Problématique</h2>
-            <p class="mt-32">Le tourisme cotier et marin attire chaque année des millions de voyageurs. Cependant, de
-                nombreuses activités
-                touristiques peuvent avoir un impact négatif sur la biodiversité marine : dégradation des coraux,
-                pertubation des espèces,pollution des plages et des océans. </p>
-
-            <p class="mt-32">Les touristes souhaitent souvent adopter un comportement plus responsable, mais ils
-                manquent parfois
-                d’informations et d’outils pour identifier les bonnes pratiques et les activités respectueuses de
-                l’environnement</p>
-
-            <h4 class="mb-64">Question centrale:
-                Comment inciter les touristes comme Ashley a réaliser des gestes éco-responsables pendant ses vacances ?
-            </h4>
-        </div>
-    </section>
-
-    <!-- Userflow -->
-    <section class="container-1200 flex space-between mb-128">
-        <h2 class="">04 Userflow</h2>
-        <div class="flex w-48">
-            <p class="poppins">Chaque vacance, Ashley,se connecte a son application nommé Eco-Marin</p>
-            <!-- exporter le userflow -->
-            <img src="assets/userflow.jpg" alt="Userflow" class="w-100">
-        </diV>
-    </section>
-
-    <!-- Solution -->
-    <section class="container-1200 flex space-between mb-128">
-        <div class="pb-128">
-            <h2 id="solution">05 Solution</h2>
-            <p>Pour répondre a cette problématique nous proposons la possibilité de réserver des activités
-                éco-responsables
-                choisis par nos soins, en lien avec la protection de la biodiversité marine </p>
-        </div>
-    </section>
-
-    <!-- Process -->
-    <section class="container-1200 flex space-between mb-128">
-        <div>
-            <h2 id="process">06 Process</h2>
-            <p>Pour concevoir l'application, une approche progressive a éte mise en place :</p>
-            
-            <h2 class="mb-64">Wireframe</h2>
-            <img src="assets/wireframe/wireframe_home.png" alt="" class="w-25">
-            <img src="assets/wireframe/wireframe_la_maison_des_tortues.png" alt="" class="w-25">
-            <img src="assets/wireframe/wireframe_mes-activites.png" alt="" class="w-25">
-            <img src="assets/wireframe/wireframe_souvenir.png" alt="" class="w-25">
-            
-            <h2 class="mb-64">MidFi</h2>
-            <img src="assets/midfi/midfi_home.png" alt="" class="w-25">
-            <img src="assets/midfi/midfi_la_maison_des_tortues.png" alt="" class="w-25">
-            <img src="assets/midfi/midfi_mes_activites.png" alt="" class="w-25">
-            <img src="assets/midfi/midfi_souvenir.png" alt="" class="w-25">
-            
-            <!-- highfi -->
-            <h2 class="mb-64">HighFi</h2>
-            <div class="space-between w-25">
-                <img src="assets/highfi/HOME.png" alt="" class="w-100">
-                <img src="assets/highfi/La maison des tortues.png" alt="" class="w-100">
-                <img src="assets/highfi/mes_activites.png" alt="" class="w-100">
-                <img src="assets/highfi/souvenir.png" alt="" class="w-100">
-            </div>
-        </div>
-    </section>
-
-    <!-- Nos retours tests Utilisateurs -->
-    <section class="container-1200 flex space-between mb-128 bg-bleu-ciel">
-        <div class="mb-32">
-            <h2 id="nosretours">07 Nos retours Test Utilisateurs</h2>
-            <p>Les tests réalisés auprès d'utilisateurs ont permis de mettre en évidence plusieurs points forts ainsi
-                que des pistes d'amélioration pour l'application.</p>
-        </div>
-
-        <div class=" container-1200 mb-32 w-48 ">
-            <h3>Les points qui ont plu</h3>
-            <ul class="list-type-none">
-                <li>Le design est esthétique et en lien avec la thématique</li>
-                <li>Les informations sont claires et accessibles</li>
-                <li>Le concept est top</li>
-                <li></li>
-            </ul>
-        </div>
-
-        <div>
-            <h3>Améliorations suggérées</h3>
-            <ul class="list-type-none">
-                <li>Ajouter davantage de détails sur les activités proposés</li>
-                <li>Accès aux programmes de la journée avant la réservation</li>
-                <li>Un récap des albums photos précédent </li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Nos évolutions -->
-    <section class="container-1200 flex space-between mb-128">
-        <h2 id="evolutions">08 Evolutions</h2>
-        <h3>Ce que l'on souhaite rajouter par la suite</h3>
-        <ul>
-            <li>Imprimer des photos</li>
-            <li>Partager tes photos via tes reseaux sociaux</li>
-            <li>Accès a une boutique via les points obtenus sur ton application</li>
-            <li>Pouvoir styliser ton album photo et meme tes badges remportés</li>
-        </ul>
-    </section>
-
-    <!-- Team -->
-    <section class="container-1200 flex space-between mb-128 bg-bleu-ciel">
-        <h2 class="pb-128">09 Team</h2>
-        <p>Équipe projet
-            Prénom Nom — UX/UI Design
-            Prénom Nom — Recherche utilisateur
-            Prénom Nom — Développement Front-End
-            Prénom Nom — Gestion de projet</p>
-    </section>
+    </div>
 
     <!-- footer -->
-    <footer class="bg-bleu-ciel color-white pt-128 pb-128">
+    <footer class="bg-bleu-ciel color-white pt-64 pb-64">
         <div class="flex space-between container-1200">
             <div class="w-24">
                 <h4 class="mb-32">Suivez-nous</h4>
-                <nav class="flex colonne gap-16">
+                <nav class="flex colonne gap-8">
                     <a href="" class="color-white">Linkedin</a>
                     <a href="" class="color-white">Instagram</a>
                     <a href="" class="color-white">Facebook</a>
@@ -270,7 +464,7 @@
             </div>
             <div class="w-24">
                 <h4 class="mb-32">Service Clientèle</h4>
-                <nav class="flex colonne gap-16">
+                <nav class="flex colonne gap-8">
                     <a href="" class="color-white">Contact</a>
                     <a href="" class="color-white">FAQ</a>
                     <a href="" class="color-white">Informations de Livraison</a>
@@ -279,7 +473,7 @@
             </div>
             <div class="w-24">
                 <h4 class="mb-32">A propos</h4>
-                <nav class="flex colonne gap-16">
+                <nav class="flex colonne gap-8">
                     <a href="" class="color-white">Emplois & Carrière</a>
                     <a href="" class="color-white">Cadeaux d'entreprise</a>
                     <a href="" class="color-white">Les Médias </a>
@@ -288,7 +482,7 @@
             </div>
             <div class="w-24">
                 <h4 class="mb-32">Condition légales</h4>
-                <nav class="flex colonne gap-16">
+                <nav class="flex colonne gap-8">
                     <a href="" class="color-white">Conditions Générales De Vente</a>
                     <a href="" class="color-white">Protection Données</a>
                     <a href="" class="color-white">Politique De Cookies</a>
@@ -298,5 +492,12 @@
         </div>
         <p class="text-center mt-64">2026 EcoMarin|Designed for Ocean Protection- Powered by Sustainable Tourism</p>
     </footer>
+
+    <!--  
+  
+    <img class="bulle-haute-gauche" src="./assets/bulle-haut-gauche (2).png" alt="">
+    <img class="bulle-basse-droite" src="./assets/bulle-droite.png" alt="">
+    <img class="bulle-basse-droite" src="./assets/bulle-droite.png" alt="">
+-->
 
 </body>
