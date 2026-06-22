@@ -241,7 +241,7 @@ height:100vh;
 }
 .transform-y-128{
   transform: translateY(200px);
-  top: -110px;
+  top: -200px;
   right: 40px;
   position: absolute;
   width: 500px;
@@ -261,6 +261,7 @@ height:100vh;
 .hero {
     overflow: visible;
     z-index: 0;
+    height: 500px;
 }
 
 
@@ -722,7 +723,7 @@ height:100vh;
  ---------------------------------*/
 
 
-.carddoc {
+.card-doc {
     background-color: white;
     border: solid rgb(102, 126, 138);
     padding: 6px 6px;
@@ -733,11 +734,12 @@ height:100vh;
     display: inline-block;
 }
 
-.carddoc1 {
-    background-color: white;
+.card-doc2 {
+    background-color: rgb(85, 153, 255);
     border: solid #186a79;
-    padding: 6px 6px;
-    width: 28%;
+    padding: 10px 15px;
+    width: 100%;
+    color: white;
     border-radius: 10px;
     font-family: "inter", sans-serif;
     box-shadow: 2px 2px 15px rgba(43, 121, 145, 0.553);
