@@ -605,7 +605,7 @@ height:100vh;
 }
 
  .img-border{
-    border-radius: 10px;
+    border-radius: 30px;
  }
 
  .photo-border{
@@ -740,7 +740,7 @@ height:100vh;
     padding: 10px 15px;
     width: 100%;
     color: white;
-    border-radius: 10px;
+    border-radius: 30px;
     font-family: "inter", sans-serif;
     box-shadow: 2px 2px 15px rgba(43, 121, 145, 0.553);
     display: inline-block;
@@ -757,6 +757,16 @@ height:100vh;
     font-size: 16px;
 }
 
-
+.card-doc3 {
+    background-color: rgb(204, 218, 238);
+    border: solid #186a79;
+    padding: 20px 40px;
+    width: 100%;
+    color: white;
+    border-radius: 30px;
+    font-family: "inter", sans-serif;
+    box-shadow: 2px 2px 15px rgba(43, 121, 145, 0.553);
+    display: inline-block;
+}
 
 

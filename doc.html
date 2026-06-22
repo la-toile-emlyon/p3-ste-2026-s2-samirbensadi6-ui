@@ -11,10 +11,19 @@
 
 <body>
     <!-- header -->
-    <header class="header-doc">
-        <div class="container-1200 justify-center flex space-between">
-            <nav class="flex gap-32 align-center">
+    <header>
+
+        <div class="container-1200 align-center flex space-between">
+            <img src="assets/logo_eco_marin.png" alt="Eco-Marin" width="5%">
+            <nav class="flex gap-32 align-center nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="doc.html">Documentation</a>
+                <a href="" class="btn-white">Télécharger</a>
+            </nav>
+        </div>
+        <!--   <div class="container-1200 align-center flex space-between">
                 <img src="assets/logo_eco_marin.png" alt="Eco-Marin" width="5%">
+                 <nav class="flex gap-32 align-center">
                 <a href="#persona">Persona</a>
                 <a href="#problematique">Problématique</a>
                 <a href="#solution">Solution</a>
@@ -24,100 +33,102 @@
                 <a href="#telecharger" class="btn-white">Télécharger</a>
             </nav>
         </div>
-
+-->
     </header>
 
+    <section class="bg-blue">
+        <div class="container-1000 space-between flex pt-128 pb-128">
+
+            <div class="w-48">
+                <h2 class="bold">Documentation</h2>
+                <p>Voici l’évolution du projet, mettant en lumière les choix de conception et les améliorations
+                    apportées au fil des itérations.</p>
+            </div>
+            <div class="w-48">
+                <img src="./assets/main.png" alt="" class="imagephone" width="50%">
+            </div>
+
+        </div>
+    </section>
+
     <!-- contexte -->
-    <section class="container-1200 space-between flex pt-128 mb-128 card-doc2">
-        <p class="mt-64 poppins">Les océans jouent un rôle essentiel dans l'équilibre de la planète. Ils produisent plus
-            de 50 %
-            de l'oxygène que nous respirons et abritent une immense diversité d'espèces animales et végétales.</p>
+    <section class="container-1000">
+        <div class="space-between flex pt-128 card-doc2 mt-128">
+            <h2 class="pb-64 text-center mt-64 bold">01 Contexte Pourquoi protéger notre biodiversité marine ?</h2>
+            <div>
 
-        <p class="mt-64 poppins">Aujourd'hui, la biodiversité marine est menacée par la pollution, le changement
-            climatique et certaines
-            activités humaines. Sa protection est indispensable pour préserver les écosystèmes, les ressources
-            naturelles et les générations futures.</p>
-        </div>
-        <div class="flex space-between mt-64 container-1000">
-            <h2 class="pb-64 text-center">01 Contexte Pourquoi protéger notre biodiversité marine ?</h2>
-            <div class="w-30 card-avis flex justify-center">
-                <img src="assets/ImpactEco.png" alt="" class="img-avantage">
-                <h3 class="mt-16 mb-16 text-center">Biodiversités menacé</h3>
-                <p class="mb-16 text-center">Un tiers des espèces d’eau douces sont menacés d’extinction selon UICN</p>
-            </div>
-
-            <div class="w-30 card-avis flex justify-center">
-                <img src="assets/Reservation.png" alt="" class="img-avantage">
-                <h3 class="mt-16 mb-16 text-center">Déconnection nature</h3>
-                <p class="mb-16 text-center">Les enfants passent en moyenne 4 à 7 min/par jour en nature non structurée
-                    contre 7h
-                    devant
-                    les écrans.
+                <p class="poppins">Les océans jouent un rôle essentiel dans l'équilibre de la planète. Ils
+                    produisent
+                    plus
+                    de 50 %
+                    de l'oxygène que nous respirons et abritent une immense diversité d'espèces animales et végétales.
                 </p>
+
+                <p class="mt-32 poppins">Aujourd'hui, la biodiversité marine est menacée par la pollution, le changement
+                    climatique et certaines
+                    activités humaines. Sa protection est indispensable pour préserver les écosystèmes, les ressources
+                    naturelles et les générations futures.</p>
             </div>
-            <div class="w-30 card-avis flex justify-center">
-                <img src="assets/Souvenirs.png" alt="" class="img-avantage">
-                <h3 class="mt-16 mb-16 text-center">Science citoyenne</h3>
-                <p class="mb-16 text-center">Les données collectées par les particuliers représentent 30% des observations
-                    naturalistes
-                    mondiales</p>
+
+            <div class="flex space-between mt-32 container-1000 color-black">
+
+                <div class="w-30 card-avis flex justify-center">
+                    <img src="assets/ImpactEco.png" alt="" class="img-avantage">
+                    <h3 class="mt-16 mb-16 text-center">Biodiversités menacé</h3>
+                    <p class="mb-16 text-center">Un tiers des espèces d’eau douces sont menacés d’extinction selon UICN
+                    </p>
+                </div>
+
+                <div class="w-30 card-avis flex justify-center color-black">
+                    <img src="assets/Reservation.png" alt="" class="img-avantage">
+                    <h3 class="mt-16 mb-16 text-center">Déconnection nature</h3>
+                    <p class="mb-16 text-center">Les enfants passent en moyenne 4 à 7 min/par jour en nature non
+                        structurée
+                        contre 7h
+                        devant
+                        les écrans.
+                    </p>
+                </div>
+                <div class="w-30 card-avis flex justify-center color-black">
+                    <img src="assets/Souvenirs.png" alt="" class="img-avantage">
+                    <h3 class="mt-16 mb-16 text-center">Science citoyenne</h3>
+                    <p class="mb-16 text-center">Les données collectées par les particuliers représentent 30% des
+                        observations
+                        naturalistes
+                        mondiales</p>
+                </div>
             </div>
         </div>
-
 
     </section>
 
     <!-- Persona -->
-    <section class="container-1200 flex space-between mt-128">
-        <div class="w-48">
-            <h2 class="mb-64" id="persona">02 Persona</h2>
-            <h3 class="mb-32">Qui est ashley</h3>
-            <h4>les points a retenir</h4>
-            <p class="poppins">Ashley a 38 ans Responsable RH . Mère de 2 enfants ( Léa 8 ans , Tom 11 ans)</p>
+    <section class="container-1000 flex space-between mt-128">
+        <div class="card-doc3">
+
+            <h2 class="mb-64 text-center mt-64 color-white bold" id="persona">02 Qui est ashley</h2>
+            <img src="assets/persona.jpg" alt="" width="100%" class="img-border">
         </div>
 
-
-        <div class="flex space-between">
-
-            <!-- Sensible à l’écologie -->
-            <div class="carddoc">
-                <p>Sensible à l’écologie</p>
-            </div>
-
-            <!-- Numerique modéré -->
-            <div class="carddoc">
-                <p>Numerique modéré</p>
-            </div>
-
-            <!-- Peu de temps libre -->
-            <div class="carddoc">
-                <p>Peu de temps libre</p>
-            </div>
-
-            <!-- Activités plein air -->
-            <div class="carddoc">
-                <p>Activités plein air</p>
-            </div>
-
-        </div>
     </section>
 
     <!-- Problématique -->
-    <section class=" container-1200 flex space-between mt-128" id="problematique">
-        <h2>03 Problématique</h2>
-        <p class="mt-32">Le tourisme cotier et marin attire chaque année des millions de voyageurs. Cependant, de
-            nombreuses activités
-            touristiques peuvent avoir un impact négatif sur la biodiversité marine : dégradation des coraux,
-            pertubation des espèces,pollution des plages et des océans. </p>
+    <section class="container-1000" id="problematique">
+        <div class="flex space-between mt-128 card-doc2">
+            <h2>03 Problématique</h2>
+            <p class="mt-32">Le tourisme cotier et marin attire chaque année des millions de voyageurs. Cependant, de
+                nombreuses activités
+                touristiques peuvent avoir un impact négatif sur la biodiversité marine : dégradation des coraux,
+                pertubation des espèces,pollution des plages et des océans. </p>
 
-        <p class="mt-32">Les touristes souhaitent souvent adopter un comportement plus responsable, mais ils
-            manquent parfois
-            d’informations et d’outils pour identifier les bonnes pratiques et les activités respectueuses de
-            l’environnement</p>
+            <p class="mt-32">Les touristes souhaitent souvent adopter un comportement plus responsable, mais ils
+                manquent parfois
+                d’informations et d’outils pour identifier les bonnes pratiques et les activités respectueuses de
+                l’environnement</p>
 
-        <h4 class="mb-64">Question centrale:
-            Comment inciter les touristes comme Ashley a réaliser des gestes éco-responsables pendant ses vacances ?
-        </h4>
+            <h4 class="mb-64">Question centrale:
+                Comment inciter les touristes comme Ashley a réaliser des gestes éco-responsables pendant ses vacances ?
+            </h4>
         </div>
     </section>
 
@@ -142,17 +153,31 @@
     </section>
 
     <!-- Process -->
-    <section class="container-1200 space-between mb-128">
+    <section class="container-1200 flex space-between mb-128">
         <div>
             <h2 id="process">06 Process</h2>
             <p>Pour concevoir l'application, une approche progressive a éte mise en place :</p>
-            <img src="" alt="">
+            
             <h2 class="mb-64">Wireframe</h2>
-            <img src="assets/wireframe.jpg" alt="wireframe" class="w-48 ">
+            <img src="assets/wireframe/wireframe_home.png" alt="" class="w-25">
+            <img src="assets/wireframe/wireframe_la_maison_des_tortues.png" alt="" class="w-25">
+            <img src="assets/wireframe/wireframe_mes-activites.png" alt="" class="w-25">
+            <img src="assets/wireframe/wireframe_souvenir.png" alt="" class="w-25">
+            
             <h2 class="mb-64">MidFi</h2>
-            <img src="assets/MidFi.jpg" alt="midFi" class="w-48">
+            <img src="assets/midfi/midfi_home.png" alt="" class="w-25">
+            <img src="assets/midfi/midfi_la_maison_des_tortues.png" alt="" class="w-25">
+            <img src="assets/midfi/midfi_mes_activites.png" alt="" class="w-25">
+            <img src="assets/midfi/midfi_souvenir.png" alt="" class="w-25">
+            
+            <!-- highfi -->
             <h2 class="mb-64">HighFi</h2>
-            <img src="assets/HiFi V2.jpg" alt="HighFiV2" class="w-48">
+            <div class="space-between w-25">
+                <img src="assets/highfi/HOME.png" alt="" class="w-100">
+                <img src="assets/highfi/La maison des tortues.png" alt="" class="w-100">
+                <img src="assets/highfi/mes_activites.png" alt="" class="w-100">
+                <img src="assets/highfi/souvenir.png" alt="" class="w-100">
+            </div>
         </div>
     </section>
 
@@ -206,15 +231,46 @@
             Prénom Nom — Gestion de projet</p>
     </section>
 
+    <!-- footer -->
     <footer class="bg-bleu-ciel color-white pt-128 pb-128">
-        <a href="" class="" id="telecharger">Télécharger</a>
-        <!-- store -->
-        <div class="mb-32 flex gap-16">
-            <a href="" class="w-30"><img src="./assets/appstrore.png" alt="" class="w-48"></a>
-            <a href="" class="w-30"><img src="./assets/googlestore.png" alt="" class="w-48"></a>
+        <div class="flex space-between container-1200">
+            <div class="w-24">
+                <h4 class="mb-32">Suivez-nous</h4>
+                <nav class="flex colonne gap-16">
+                    <a href="" class="color-white">Linkedin</a>
+                    <a href="" class="color-white">Instagram</a>
+                    <a href="" class="color-white">Facebook</a>
+                </nav>
+            </div>
+            <div class="w-24">
+                <h4 class="mb-32">Service Clientèle</h4>
+                <nav class="flex colonne gap-16">
+                    <a href="" class="color-white">Contact</a>
+                    <a href="" class="color-white">FAQ</a>
+                    <a href="" class="color-white">Informations de Livraison</a>
+                    <a href="" class="color-white">Déclaration d'accessibilité</a>
+                </nav>
+            </div>
+            <div class="w-24">
+                <h4 class="mb-32">A propos</h4>
+                <nav class="flex colonne gap-16">
+                    <a href="" class="color-white">Emplois & Carrière</a>
+                    <a href="" class="color-white">Cadeaux d'entreprise</a>
+                    <a href="" class="color-white">Les Médias </a>
+                    <a href="" class="color-white">Blog</a>
+                </nav>
+            </div>
+            <div class="w-24">
+                <h4 class="mb-32">Condition légales</h4>
+                <nav class="flex colonne gap-16">
+                    <a href="" class="color-white">Conditions Générales De Vente</a>
+                    <a href="" class="color-white">Protection Données</a>
+                    <a href="" class="color-white">Politique De Cookies</a>
+                    <a href="" class="color-white">Mentions Légales</a>
+                </nav>
+            </div>
         </div>
         <p class="text-center mt-64">2026 EcoMarin|Designed for Ocean Protection- Powered by Sustainable Tourism</p>
-
     </footer>
 
 </body>
