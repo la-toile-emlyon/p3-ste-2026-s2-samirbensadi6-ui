@@ -897,3 +897,11 @@ footer h4 {
     font-weight: 700;
     font-size: 16px;
 }
+
+.bg-hero-overlay2{
+    position: absolute;
+    top: 0;right: 0;
+    z-index: -1;
+    width: 65%;
+    height: auto;
+}
