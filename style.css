@@ -44,14 +44,11 @@ position: fixed;
     background-color: transparent;
     transition: background-color 0.3s ease;
     z-index: 1000;
-    padding: 0 20px;          
-    height: 100px;       
+    padding: 5px 20px;          
     box-sizing: border-box;
     display: flex;
     align-items: center;
 }
-
-
 
 .nav-links{
     font-family: "Poppins", sans-serif;
@@ -68,6 +65,8 @@ header a{
 h2,h3,h4,h5,h6{
      font-family: "Poppins", sans-serif;
      font-weight: bold;
+     color: rgb(25, 121, 153);
+     font-weight: 800;
 }
 
 h1{
@@ -91,7 +90,7 @@ font-family: "Inter", sans-serif;
 }
 
 h2 {
-font-weight: 145;
+font-weight: 400;
 font-size: 30px;
 font-family: "Noto Sans Pahawh Hmong", sans-serif;
 }
@@ -140,7 +139,7 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
 }
 
 .color-blue{
-    color: #006F95;
+    color: rgb(25, 121, 153);
 }
 
 .color-green{
@@ -148,14 +147,20 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
 }
 
 .bg-bleu-ciel{
-    background-color: #67C3F3;
+    background-color:rgb(25, 121, 153);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bg-bleu-solution{
+    background-color:rgb(25, 121, 153);
     border-radius: 10px;
     padding: 10px;
 }
 
 
 .bg-blue{
-    background-color: rgb(102, 126, 138);
+    background-color: rgb(25, 121, 153);
 }
 
 .bg-black {
@@ -190,7 +195,7 @@ font-family: "Noto Sans Pahawh Hmong", sans-serif;
 
 .bulle-basse-droite{
     position: absolute;
-    top: 285%;
+    top: 505%;
     left: 61%;
     width: 50%;
     z-index: -1;
@@ -302,9 +307,12 @@ height:100vh;
     background: linear-gradient(to bottom, transparent, #f3f3f35e,#E7E7E7 );
 }
 
+header img{
+    width: 80px;
+}
+
 .header-white{
     background-color: rgb(25, 121, 153);
-    height: 70px;
     transition: all 0.85s cubic-bezier(0.4, 0, 0.2, 1);
     a, p{
         color:#fff;
@@ -314,6 +322,11 @@ height:100vh;
     border-radius: 100px;
     background: transparent;
     padding: 12px 32px;
+    }
+
+
+    img{
+        filter: grayscale(1)invert(1)brightness(10);
     }
 }
 
@@ -696,6 +709,11 @@ align-end{
     transform: translateX(575px);
 }
 
+.btn-pos{
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* ------------------------------
             Commentaires
  ---------------------------------*/
@@ -756,7 +774,7 @@ align-end{
 
  .span-bleu{
     font-weight: 800;
-    color: #006F95;
+    color: #71dbff;
  }
 
 .card-doc {
@@ -813,7 +831,7 @@ align-end{
     color: white;
     text-decoration: none;
     border-radius: 15px;
-    background-color: rgb(85, 153, 255);
+    background-color: rgb(25, 121, 153);
 
 }
 
@@ -853,3 +871,29 @@ align-end{
 }
 
 
+
+
+/*Hero*/
+
+.section-hero{
+    position: relative;
+}
+
+    .btn-blue{
+    border: 1.4px solid rgb(25, 121, 153);
+    color: rgb(25, 121, 153);
+    border-radius: 100px;
+    background: transparent;
+    padding: 12px 32px;
+    }
+
+footer {
+    font-family: "inter", sans-serif;
+    font-size: 13px;
+}
+
+footer h4 {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
